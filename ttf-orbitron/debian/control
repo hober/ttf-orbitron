@@ -1,0 +1,19 @@
+Source: ttf-orbitron
+Section: fonts
+Priority: optional
+Maintainer: Edward O'Connor <hober0@gmail.com>
+Uploaders: Edward O'Connor <hober0@gmail.com>
+Build-Depends: debhelper (>= 7.2.3)
+Standards-Version: 3.8.4
+Homepage: http://www.theleagueofmoveabletype.com/fonts/12-orbitron
+Vcs-git: git://github.com/hober/ttf-orbitron.git
+Vcs-Browser: http://github.com/hober/ttf-orbitron
+
+Package: ttf-orbitron
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: x-ttcidfont-conf | fontconfig
+Description: Orbitron is a geometric sans-serif typeface intended for display purposes.
+ It features four weights (light, medium, bold, and black), a stylistic
+ alternative, small caps, and a ton of alternate glyphs.
+ It is released under the SIL Open Font License.

@@ -1,0 +1,2 @@
+*.otf usr/share/fonts/truetype/ttf-orbitron
+debian/bug/* usr/share/bug/ttf-orbitron
